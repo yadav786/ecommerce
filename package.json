@@ -1,0 +1,32 @@
+{
+  "name": "flex",
+  "version": "1.0.0",
+  "description": "gulp styles",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "flex",
+    "css"
+  ],
+  "author": "Pankaj Shriram Yadav",
+  "license": "ISC"
+}
