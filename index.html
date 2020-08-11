@@ -1,21 +1,58 @@
 <html>
     <head>
         <title>Flexbox</title>
-        <link rel="stylesheet" href="./build/styles/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/styles/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Oswald&family=Raleway&family=Roboto:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
+            <div class="row nav-container">
+                   <div class="col-sm-4 brand"> 
+                       <a href="#!">HelloEx</a>
+                   </div>
+                    <div class="col-sm-8 nav-mobile">
+                        <a href="#!" id="nav-toggle"><span></span></a>
+                        <ul class="nav-list">
+                                <li class="nav-list__menu">Home</li>
+                                <li class="nav-list__menu">About</li>
+                                <li class="nav-list__menu"><a href="services">HelloEx</a>
+                                     <ul class="nav-list__submenus">
+                                         <li class="nav-list__submenu">My Profile</li>
+                                         <li class="nav-list__submenu">Orders</li>
+                                         <li class="nav-list__submenu">Wishlist</li>
+                                         <li class="nav-list__submenu">Coupos</li>
+                                         <li class="nav-list__submenu">Gift Cards</li>
+                                         <li class="nav-list__submenu">Notifications</li>
+                                     </ul>
+                                </li>
+                                <li class="nav-list__menu">Pricing</li>
+                                <li class="nav-list__menu">Portfolio</li>
+                                <li class="nav-list__menu">Contact</li>
+                        </ul>
+                    </div>
+            </div>
             <div class="row">
-                 <div class="col-sm-4 box1">
-                   1
-                 </div>
-                 <div class="col-sm-4 box2">
-                    2 
-                </div>
-                <div class="col-sm-4 box3">
-                     3
-                </div>
+                <section id="pseudo-section">
+                   <!-- ::pseudo-element -->
+                   <ul id="pseudo-element">
+                       <li>Buy Milk</li>
+                       <li>Buy Milk</li>
+                       <li>Buy Milk</li>
+                       <li>Buy Milk</li>
+                       <li>Buy Milk</li>
+                       <li>Buy Milk</li>
+                   </ul>
+                </section>
+            </div>
+            <div class="fonts">
+               <div class="Montserrat">Hey there! I am Montserrat fonts.</div> 
+               <div class="Oswald">Hey there! I am Oswald fonts.</div>
+               <div class="Lato">Hey there! I am Lato fonts.</div>
+               <div class="Roboto">Hey there! I am Roboto fonts.</div>
+               <div class="Raleway">Hey there! I am Raleway fonts Hey there! Hey there! I am Raleway fonts Hey there Hey there! I am Raleway fonts Hey there Hey there! I am Raleway fonts Hey there Hey there! I am Raleway fonts Hey there</div>
             </div>
         </div>
+        <script src="index.js"></script>
     </body>
 </html>
